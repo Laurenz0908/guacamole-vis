@@ -1,0 +1,15 @@
+[workspace]
+authors = ["Laurenz0908 <laurenz.holcik@gmail.com>"]
+channels = ["conda-forge", "bioconda"]
+name = "guacamole_diagnostics"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.14.3,<3.15"
+streamlit = ">=1.55.0,<2"
+pandas = ">=2.3.3,<3"
+numpy = ">=2.4.2,<3"
+plotly = ">=6.6.0,<7"

@@ -1,0 +1,17 @@
+# pixi environments
+.pixi/*
+!.pixi/config.toml
+
+# Python
+__pycache__/
+*.py[cod]
+
+# IDE
+.idea/
+
+# Claude internal
+.claude/
+CLAUDE.md
+
+# Test artifacts
+test_out_pytest/
